@@ -1,0 +1,97 @@
+body {
+ background-image: url("wallpaper4.jpg");
+ background-color: #cccccc;
+ font-family: sans-serif;
+ color: white;
+}
+
+a:hover{
+	color:red;
+}
+
+a{
+	color:yellow;
+}
+
+span{
+	color: red;
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+}
+
+.headshot img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 200px;
+	width: 150px;
+}
+
+.headshot h3{
+		text-align: center;
+}
+
+table {
+	margin-top: 40px;
+  margin-left: auto; 
+  margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 30%;
+  border: 0px;
+}
+
+th{
+	font-weight: bold;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(odd) {
+  background-color: DarkSeaGreen;
+}
+tr:nth-child(even) {
+  background-color: chocolate;
+}
+
+
+.hobbies{
+	text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.history{
+	text-align: center;
+}
+
+.quote{
+	text-align: center;
+}
+
+.links{
+	padding-top: 20px;
+	text-align: center;
+}
+
+footer * {
+  position: relative;
+}
+
+footer .button {
+	margin-left: auto;
+  	margin-right: auto;
+  padding: 1.25rem 3.75rem;
+  border-radius: 4px;
+  background-color: #ff8000;
+}
+
